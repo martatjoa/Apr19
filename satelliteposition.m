@@ -55,3 +55,6 @@ r = a*(1-e^2)./(1+e*cosd(nu));
 lat = dg;
 % Get longitude by shifting by Greenwich ST (then wrap to [-180 180])
 lon = mod(ag - 15*siderealtime(t,0) + 180,360) - 180;
+
+
+%%% Test 
